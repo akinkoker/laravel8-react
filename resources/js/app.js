@@ -12,4 +12,9 @@ require('./bootstrap');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
+//require('./components/Example');
+
+// Register React components
 require('./components/Example');
+require('./components/User');
+
