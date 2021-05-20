@@ -4,6 +4,7 @@
 
 ```sh
 - composer install
+- php artisan ui react
 - npm install
 - npm run watch
 - php artisan serve

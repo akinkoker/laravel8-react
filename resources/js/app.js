@@ -15,6 +15,6 @@ require('./bootstrap');
 //require('./components/Example');
 
 // Register React components
-require('./components/Example');
-require('./components/User');
+//require('./components/Example');
+require('./components/Index');
 
