@@ -65,7 +65,6 @@ class Index extends React.Component{
                 );
                 
                 this.setState({tasks:updated_tasks, saveTask_name:'', saveTask_description:'',btn_saveTask_disable:false, operation_task:{}, toast_msg:'Değiştirildi.'});
-                
             });
 
         }
