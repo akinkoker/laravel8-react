@@ -1,4 +1,6 @@
-## Bu projede Laravel8 ve React kullanılmıştır.
+## Laravel8-React-Bootstrap5
+
+#### Bu projede; Laravel8, React ve Bootstrap5 kullanılarak basit bir TodoApp CRUD sistemi oluşturulmuştur.
 
 **Kurulum;**
 
