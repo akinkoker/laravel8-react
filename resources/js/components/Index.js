@@ -53,7 +53,7 @@ class Index extends React.Component{
                 this.setState({tasks, saveTask_name:'', saveTask_description:'',btn_saveTask_disable:false, toast_msg:'Kaydedildi.'});
             });
 
-        } else if(modal_type==='EDIT'){
+        } else if(modal_type==='EDIT'){ 
 
             this.setState({btn_saveTask_disable:true, toast_msg:`Değiştiriliyor.. Lütfen Bekleyin.`}, ()=> $('.toast').toast("show") );
             $('.modal').modal("hide");
@@ -156,8 +156,8 @@ class Index extends React.Component{
                 <thead>
                     <tr>
                         <th>#</th>
-                        <th>First Name</th>
-                        <th>Last Name</th>
+                        <th>Name</th>
+                        <th>Description</th>
                         <th>Actions</th>
                     </tr>
                 </thead>
@@ -170,15 +170,13 @@ class Index extends React.Component{
 
         let {loading, btn_saveTask_disable, saveTask_name, saveTask_description, toast_msg, modal_type} = this.state;
         return (
-            <div className="container-fluid">
-                <div className="card bg-secondary my-2">
-                    <div className="card-body">
-                        <div className="d-flex justify-content-center m-4">
-                            <button type="button" className="btn btn-primary" onClick={()=>{ this.openModal({modal_type:'ADD'}) }}>Add Task</button>
-                        </div>
+            <div className="container">
+                <nav className="navbar navbar-dark bg-dark">
+                    <div className="container-fluid">
+                        <a className="navbar-brand">Task CRUD</a>
+                        <button type="button" className="btn btn-primary" onClick={()=>{ this.openModal({modal_type:'ADD'}) }}>Add Task</button>
                     </div>
-                </div>
-
+                </nav>
                 {
                     loading ? this.return_spinner()
                             : this.return_table()
