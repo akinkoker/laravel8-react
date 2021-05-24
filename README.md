@@ -11,7 +11,8 @@
 - npm run watch
 - php artisan serve
 ```
-![Laravel8, React, Bootstrap5](https://user-images.githubusercontent.com/18303731/119043022-4442fe80-b9c1-11eb-93ae-234e08d4b41a.gif)
+![Laravel8, React, Bootstrap5](https://user-images.githubusercontent.com/18303731/119319714-77b4b000-bc83-11eb-93da-06e880ab7648.gif)
+
 
 <!---Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
